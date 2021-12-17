@@ -94,7 +94,7 @@ int main()
     officer s2;
     regular s3;
     causual s4;
-    s1.get_info(1,"Ashu");
+    s1.get_info(1,"Sheetal verma");
     s1.display1();
     s1.get_info2("English",5);
     s1.display2();
