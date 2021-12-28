@@ -1,0 +1,35 @@
+// sum of two no. using inheritance  
+#include<iostream>
+#include<string>
+using namespace std;
+
+class first
+{
+    public:
+    int a,b;
+     void func()
+    {
+        cout<<"enter the value of a : ";
+         cin>>a;
+        cout<<"enter the value of b : ";
+        cin>>b;
+        
+    }
+};
+class derived:public first
+{
+    public:
+   void add()
+   {
+       int sum;
+       sum=a+b;
+       cout<<sum;
+   }
+};
+int main()
+{
+    derived A;
+    A.func();
+    A.add();
+    return 0;
+}
