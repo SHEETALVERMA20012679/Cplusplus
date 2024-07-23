@@ -51,12 +51,6 @@ d.display();
 d.b=20;
 d.mul();
 d.display();
-
-
-
-
-
-
 return 0;
 }
 
