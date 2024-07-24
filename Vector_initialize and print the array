@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    // Initialize a vector of integers
+    vector<int> A = {1, 2, 3, 4, 5};
+
+    // Range-based for loop to iterate over the elements of the vector
+    for(int a : A) {
+        cout << a << " ";
+    }
+    
+    cout << endl;
+    return 0;
+}
